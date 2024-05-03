@@ -1,0 +1,25 @@
+package com.jspider.movieflix_java_servlet.controller;
+
+import com.jspider.movieflix_java_servlet.dao.MovieFlixDao;
+import com.jspider.movieflix_java_servlet.dto.Admin;
+
+public class AdminLoginConrtoller {
+	public static void main(String[] args) {
+		MovieFlixDao dao = new MovieFlixDao();
+		
+		String email = "sachin@123gmail.com";
+		String password = "sachin@123";
+		
+		Admin admin =dao.fetchAdminByEmailForLogin(email);
+		
+		if(admin!=null) {
+			if(admin.getAdminEmail().equals(password)) {
+				System.out.println("Successful Login");
+			}else {
+				System.out.println("Password is Incorrect");
+			}
+		}else {
+			System.out.println("Email is Incorrect");
+		}
+	}
+}

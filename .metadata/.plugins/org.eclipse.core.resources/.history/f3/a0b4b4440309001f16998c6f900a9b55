@@ -1,0 +1,5 @@
+package com.jspider.movieflix_java_servlet.dao;
+
+public class MovieFlixDao {
+
+}

@@ -1,0 +1,46 @@
+package com.jspider.movieflix_java_servlet.dto;
+
+/**
+ * @Sachin
+ * This is my encapsulation class
+ * which will help me for admin login
+ */
+public class Admin {
+	private int adminId;
+	private String adminName;
+	private String adminEmail;
+	private String adminPassword;
+	private long adminPhone;
+	
+	/**
+	 * sort cut for creating constructor
+	 * Alt + s + a
+	 * 
+	 * @param adminId
+	 * @param adminName
+	 * @param adminEmail
+	 * @param adminPassword
+	 * @param adminPhone
+	 */
+	
+	public Admin(int adminId, String adminName, String adminEmail, String adminPassword, long adminPhone) {
+		super();
+		this.adminId = adminId;
+		this.adminName = adminName;
+		this.adminEmail = adminEmail;
+		this.adminPassword = adminPassword;
+		this.adminPhone = adminPhone;
+	}
+
+	public Admin(String adminEmail, String adminPassword) {
+		super();
+		this.adminEmail = adminEmail;
+		this.adminPassword = adminPassword;
+	}
+
+	public Admin() {
+		super();
+	}
+	
+	
+}

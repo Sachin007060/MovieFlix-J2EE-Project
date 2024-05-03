@@ -1,0 +1,23 @@
+package com.jspider.movieflix_java_servlet.dao;
+
+import java.sql.Connection;
+
+import com.jspider.movieflix_java_servlet.connection.MovieFlixConnection;
+import com.jspider.movieflix_java_servlet.dto.Admin;
+
+/**
+ * 
+ * @Sachin
+ */
+
+public class MovieFlixDao {
+	/*
+	 * Created fetchAdminByEmailForLogin() method
+	 */
+	
+	private Connection connection = MovieFlixConnection.getMovieFlixConnection();
+	private final String SELECT_QUERY_FOR_LOGIN="select email from admin";
+	
+	public Admin fetchAdminByEmailForLogin(String adminEmail) {
+	}
+}

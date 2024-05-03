@@ -1,0 +1,3 @@
+INDEX VERSION 1.134
+D:\Netflix-j2ee-project\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1141350560.index
+\movieflix-java-servlet\src\main\resources

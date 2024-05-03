@@ -1,0 +1,7 @@
+package com.jspider.movieflix_java_servlet.controller;
+
+public class AdminLoginConrtoller {
+	public static void main(String[] args) {
+		
+	}
+}

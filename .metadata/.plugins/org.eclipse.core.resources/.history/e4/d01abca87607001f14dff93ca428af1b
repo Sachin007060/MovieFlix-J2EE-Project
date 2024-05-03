@@ -1,0 +1,5 @@
+package com.jspider.movieflix_java_servlet.dto;
+
+public class Admin {
+
+}

@@ -1,0 +1,18 @@
+package com.jspider.movieflix_java_servlet.dao;
+
+import com.jspider.movieflix_java_servlet.dto.Admin;
+
+/**
+ * 
+ * @Sachin
+ */
+
+public class MovieFlixDao {
+	/*
+	 * Created fetchAdminByEmailForLogin() method
+	 */
+	
+	public Admin fetchAdminByEmailForLogin() {
+		
+	}
+}

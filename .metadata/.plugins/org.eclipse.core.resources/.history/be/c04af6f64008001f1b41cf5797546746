@@ -1,0 +1,13 @@
+package com.jspider.movieflix_java_servlet.connection;
+
+import java.sql.Connection;
+
+public class MovieFlixConnection {
+	/*
+	 * Connection method
+	 */
+	
+	public static Connection getMovieFlixConnection() {
+		
+	}
+}

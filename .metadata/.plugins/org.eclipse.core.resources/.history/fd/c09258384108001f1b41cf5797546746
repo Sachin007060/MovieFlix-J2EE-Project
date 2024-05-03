@@ -1,0 +1,28 @@
+package com.jspider.movieflix_java_servlet.connection;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+import com.mysql.cj.jdbc.Driver;
+
+public class MovieFlixConnection {
+	/*
+	 * Connection method
+	 */
+	
+	public static Connection getMovieFlixConnection() {
+		try {
+			Driver driver = new Driver();
+			
+			String url = "";
+			String user ="";
+			String pass = "";
+			
+			return DriverManager.getConnection(url, user, pass);
+			
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+}

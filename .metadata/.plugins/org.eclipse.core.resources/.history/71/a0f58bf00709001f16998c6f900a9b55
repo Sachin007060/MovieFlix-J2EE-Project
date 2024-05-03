@@ -1,0 +1,12 @@
+package com.jspider.movieflix_java_servlet.controller;
+
+import com.jspider.movieflix_java_servlet.dao.MovieFlixDao;
+
+public class AdminLoginConrtoller {
+	public static void main(String[] args) {
+		MovieFlixDao dao = new MovieFlixDao();
+		
+		String email = "";
+		String password = "";
+	}
+}
