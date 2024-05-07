@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Hello Sachin</h1>
+	<jsp:include page="front-navbar.jsp"/>
 </body>
 </html>
