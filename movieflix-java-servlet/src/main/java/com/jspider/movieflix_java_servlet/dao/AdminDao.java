@@ -13,7 +13,7 @@ import com.jspider.movieflix_java_servlet.dto.Admin;
  * @Sachin
  */
 
-public class MovieFlixDao {
+public class AdminDao {
 	/*
 	 * Created fetchAdminByEmailForLogin() method
 	 */

@@ -1,7 +1,7 @@
 package com.jspider.movieflix_java_servlet.dto;
 
 /**
- * @Sachin
+ * @author sachin
  * This is my encapsulation class
  * which will help me for admin login
  */

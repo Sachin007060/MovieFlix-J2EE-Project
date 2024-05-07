@@ -5,7 +5,7 @@ import java.util.Objects;
 
 /**
  * 
- * @Sachin
+ * @Author Sachin
  * This is java POJO(Plain old java object) class
  */
 
@@ -86,6 +86,8 @@ public class User {
 	public void setGender(String gender) {
 		this.gender = gender;
 	}
+	
+	
 
 	public User(String name, String email, String password, LocalDate dob, long phone, String gender) {
 		super();
@@ -95,6 +97,12 @@ public class User {
 		this.dob = dob;
 		this.phone = phone;
 		this.gender = gender;
+	}
+
+	public User(String email, String password) {
+		super();
+		this.email = email;
+		this.password = password;
 	}
 
 	@Override
