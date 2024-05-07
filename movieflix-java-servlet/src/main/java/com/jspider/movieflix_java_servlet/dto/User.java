@@ -1,12 +1,12 @@
 package com.jspider.movieflix_java_servlet.dto;
 
+import java.io.InputStream;
 import java.time.LocalDate;
 import java.util.Objects;
 
 /**
  * 
- * @Author Sachin
- * This is java POJO(Plain old java object) class
+ * @Author Sachin This is java POJO(Plain old java object) class
  */
 
 public class User {
@@ -15,9 +15,13 @@ public class User {
 	private String email;
 	private String password;
 	private LocalDate dob;
-	transient private byte[] image;
+	private InputStream image;
 	private long phone;
 	private String gender;
+
+	public void setImage(InputStream image) {
+		this.image = image;
+	}
 
 	public User() {
 		super();
@@ -63,12 +67,8 @@ public class User {
 		this.dob = dob;
 	}
 
-	public byte[] getImage() {
+	public InputStream getImage() {
 		return image;
-	}
-
-	public void setImage(byte[] image) {
-		this.image = image;
 	}
 
 	public long getPhone() {
@@ -86,8 +86,6 @@ public class User {
 	public void setGender(String gender) {
 		this.gender = gender;
 	}
-	
-	
 
 	public User(String name, String email, String password, LocalDate dob, long phone, String gender) {
 		super();
@@ -111,7 +109,6 @@ public class User {
 				+ ", phone=" + phone + ", gender=" + gender + "]";
 	}
 
-	
 	/*
 	 * to generate hash code and equals method is Alt+Shift+s+h
 	 */
