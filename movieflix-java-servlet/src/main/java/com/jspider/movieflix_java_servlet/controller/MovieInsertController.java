@@ -20,7 +20,7 @@ public class MovieInsertController extends HttpServlet{
 		String productionhouse = req.getParameter("");
 		String directorname = req.getParameter("");
 		String quality = req.getParameter("");
-		String name = req.getParameter("");
+//		String name = req.getParameter("");
 		String url = req.getParameter("");
 		String type = req.getParameter("");
 	}
