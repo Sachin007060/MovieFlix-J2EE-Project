@@ -39,6 +39,24 @@ public class Movie {
 		this.url = url;
 		this.type = type;
 	}
+	
+	
+	public Movie(String name, LocalDate releasedYear, String genresType, String language, String description,
+			String productionHouse, String directorName, String quality, InputStream image, String url, String type) {
+		super();
+		this.name = name;
+		this.releasedYear = releasedYear;
+		this.genresType = genresType;
+		this.language = language;
+		this.description = description;
+		this.productionHouse = productionHouse;
+		this.directorName = directorName;
+		this.quality = quality;
+		this.image = image;
+		this.url = url;
+		this.type = type;
+	}
+
 
 	public int getId() {
 		return id;
